@@ -8,7 +8,16 @@ This porject might contain dummy firebase credentials.
 
 ## Getting Started
 
-First, run the development server:
+First, set up .env.local and add following env variables (dummy):
+
+    NEXT_PUBLIC_API_KEY=xxxx
+    NEXT_PUBLIC_AUTH_DOMAIN=xxxx
+    NEXT_PUBLIC_PROJECT_ID=xxxx
+    NEXT_PUBLIC_STORAGE_BUCKET=xxxx
+    NEXT_PUBLIC_MESSAGING_SENDER_ID=xxxx
+    NEXT_PUBLIC_APP_ID=xxxx
+
+Run the development server:
 
 ```bash
 npm run dev
